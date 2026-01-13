@@ -1,0 +1,158 @@
+{
+  "dealership": {
+    "name": "Premium Auto Dealership",
+    "location": "Downtown Motors",
+    "contact": "+1-800-PREMIUM-1",
+    "email": "bookings@premiumauto.com"
+  },
+  "inventory": [
+    {
+      "id": "sedan_001",
+      "type": "Sedan",
+      "model": "Elegance 2024",
+      "brand": "LuxuryAuto",
+      "year": 2024,
+      "color": ["Black", "Silver", "Blue"],
+      "price_range": "$35,000 - $42,000",
+      "features": [
+        "Advanced safety features",
+        "Touchscreen infotainment",
+        "Lane keeping assist",
+        "Adaptive cruise control",
+        "Premium leather seats",
+        "Panoramic sunroof"
+      ],
+      "fuel_type": "Hybrid",
+      "mpg": "45 city / 52 highway",
+      "seating_capacity": 5,
+      "transmission": "Automatic CVT",
+      "engine": "2.5L 4-cylinder hybrid",
+      "availability": true,
+      "test_drive_duration_minutes": 60
+    },
+    {
+      "id": "suv_001",
+      "type": "SUV",
+      "model": "Explorer Pro",
+      "brand": "RuggAuto",
+      "year": 2024,
+      "color": ["White", "Red", "Gray"],
+      "price_range": "$45,000 - $55,000",
+      "features": [
+        "All-wheel drive",
+        "Panoramic roof",
+        "Power liftgate",
+        "Three-row seating",
+        "Off-road capability",
+        "Advanced navigation",
+        "Heated seats",
+        "Blind spot monitoring"
+      ],
+      "fuel_type": "Gasoline",
+      "mpg": "21 city / 28 highway",
+      "seating_capacity": 7,
+      "transmission": "Automatic 10-speed",
+      "engine": "3.0L EcoBoost",
+      "availability": true,
+      "test_drive_duration_minutes": 75
+    },
+    {
+      "id": "truck_001",
+      "type": "Pickup Truck",
+      "model": "PowerHaul Max",
+      "brand": "TruckMaster",
+      "year": 2024,
+      "color": ["Black", "Silver", "Red"],
+      "price_range": "$38,000 - $52,000",
+      "features": [
+        "Heavy-duty frame",
+        "Electronic locking differential",
+        "Integrated tailgate step",
+        "Dual battery system",
+        "Towing package",
+        "Backup camera",
+        "Heated front seats",
+        "Remote start"
+      ],
+      "fuel_type": "Diesel",
+      "mpg": "18 city / 24 highway",
+      "seating_capacity": 5,
+      "transmission": "Automatic 6-speed",
+      "engine": "3.2L Power Diesel",
+      "towing_capacity": "12,000 lbs",
+      "payload_capacity": "3,500 lbs",
+      "availability": true,
+      "test_drive_duration_minutes": 60
+    },
+    {
+      "id": "compact_001",
+      "type": "Compact Car",
+      "model": "City Spark",
+      "brand": "EcoAuto",
+      "year": 2024,
+      "color": ["Blue", "Green", "Yellow"],
+      "price_range": "$18,000 - $24,000",
+      "features": [
+        "Fuel efficient",
+        "Touchscreen display",
+        "Backup camera",
+        "Bluetooth connectivity",
+        "USB charging",
+        "Compact design",
+        "Easy parking",
+        "Eco mode"
+      ],
+      "fuel_type": "Gasoline",
+      "mpg": "32 city / 41 highway",
+      "seating_capacity": 5,
+      "transmission": "Manual / Automatic CVT",
+      "engine": "1.5L 4-cylinder",
+      "availability": true,
+      "test_drive_duration_minutes": 45
+    },
+    {
+      "id": "electric_001",
+      "type": "Electric Vehicle",
+      "model": "FutureRide EV",
+      "brand": "ElectroAuto",
+      "year": 2024,
+      "color": ["White", "Black", "Metallic Gray"],
+      "price_range": "$42,000 - $58,000",
+      "features": [
+        "Fast charging capability",
+        "Long range battery",
+        "Regenerative braking",
+        "Advanced AI assistant",
+        "Premium audio system",
+        "Glass roof",
+        "Self-parking capability",
+        "Over-the-air updates"
+      ],
+      "fuel_type": "Electric",
+      "range_miles": "350 miles",
+      "battery_capacity": "85 kWh",
+      "charging_time_hours": "0.5 (fast) / 8 (home)",
+      "seating_capacity": 5,
+      "transmission": "Single-speed automatic",
+      "motor": "Dual motor electric",
+      "availability": true,
+      "test_drive_duration_minutes": 60
+    }
+  ],
+  "working_hours": {
+    "monday": "09:00 - 18:00",
+    "tuesday": "09:00 - 18:00",
+    "wednesday": "09:00 - 18:00",
+    "thursday": "09:00 - 18:00",
+    "friday": "09:00 - 18:00",
+    "saturday": "10:00 - 17:00",
+    "sunday": "Closed"
+  },
+  "test_drive_policy": {
+    "minimum_age": 18,
+    "valid_license_required": true,
+    "advance_booking_required": true,
+    "booking_window_days": 30,
+    "cancellation_policy": "Free cancellation up to 2 hours before scheduled time"
+  }
+}
